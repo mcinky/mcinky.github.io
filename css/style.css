@@ -232,9 +232,9 @@ header .btn {
 
 /* about */
 #about {
+    background: linear-gradient(rgba(255, 0, 0, 0.30), rgba(255, 0, 0, 0.30) ), url(../img/splash.jpg);
     text-align: center;
     margin-top: 50px;
-    background-image: url('./../img/banner.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
