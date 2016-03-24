@@ -280,7 +280,8 @@
 
           try {
             var successful = document.execCommand('copy');
-            var msg = successful ? 'successful' : 'unsuccessful';
+            var msg = successful ? 'Copied!' : 'Failed. Type it in!';
+            document.querySelector(".serverip").setAttribute("data-tooltip", "Copied!");
             console.log('Copying text command was ' + msg);
           } catch (err) {
             console.log('Oops, unable to copy');
