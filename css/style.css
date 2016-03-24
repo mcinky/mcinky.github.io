@@ -263,9 +263,15 @@ header .links {
     }
 }
 
-header .logo {
+.logo {
     display: block;
     margin: 0 auto;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
 }
 
 header .btn {
