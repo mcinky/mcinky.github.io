@@ -14,6 +14,27 @@
   <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
   <link href="css/style.css" type="text/css" rel="stylesheet">
 
+  <!-- scripts -->
+  <script src="https://mcapi.us/scripts/minecraft.js"></script>
+  <script>
+    MinecraftAPI.getServerStatus('inkymc.com', {
+      port: 25565 // optional, only if you need a custom port
+    }, function (err, status) {
+      if (err) {
+        return document.querySelector('.server-status').innerHTML = 'Error loading status';
+      }
+
+      // you can change these to your own message!
+      if (status.online) {
+        document.querySelector('.server-online').setAttribute("style", "color:green;");
+      }
+      else {
+        document.querySelector('.server-online').setAttribute("style", "color:red;");
+      }
+
+    });
+  </script>
+
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -46,7 +67,7 @@
                 <div class="collapse navbar-collapse" id="minecraft-navbar">
                   <ul class="nav navbar-nav navbar-right">
                     <!-- navigation links -->
-                    <li><a class="serverip tooltip-bottom" data-tooltip="Click to copy">Server IP:<span style="color: #fff;" class="copyip">inkymc.com</span></a></li>
+                    <li><a class="server-status serverip tooltip-bottom" data-tooltip="Click to copy">Server IP:<span style="color: #fff;" class="copyip">inkymc.com </span><span class="server-online">●</span></a></li>
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#donate">Shop</a></li>
                     <li><a href="#">Forums</a></li>
@@ -297,6 +318,7 @@
         });
 
         </script>
+
         <script type="text/javascript">
 
         $(document).ready(function() {
