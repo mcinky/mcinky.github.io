@@ -177,8 +177,10 @@
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.<br>
               </p>
-              <a href="#" class="btn btn-transparent">Game Store <i class="fa fa-shopping-cart"></i></a>
-              <a href="#" class="btn btn-danger">New Minigames <i class="fa fa-chevron-right"></i></a>
+              <div class="slinks">
+                <a href="#donate" class="btn btn-transparent">Rank Store <i class="fa fa-shopping-cart"></i></a>
+                <a href="#servers" class="btn btn-danger">Servers <i class="fa fa-chevron-right"></i></a>
+              </div>
           </div>
         </div>
 
@@ -331,12 +333,21 @@
             }
           });
         });
-
+        </script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+          $('.slinks').onePageNav({
+            begin: function() {
+              $('body').append('<div id="device-dummy" style="height: 1px;"></div>');
+            },
+            end: function() {
+              $('#device-dummy').remove();
+            }
+          });
+        });
         </script>
 
-        
         <script type="text/javascript">
-
         $(document).ready(function() {
           $('.nav').onePageNav({
             begin: function() {
