@@ -1,0 +1,1 @@
+{"status":"success","online":false,"motd":"","error":"","players":{"max":0,"now":0},"server":{"name":"","protocol":0},"last_online":"","last_updated":"","duration":0}
