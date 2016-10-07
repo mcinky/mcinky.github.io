@@ -160,38 +160,7 @@ header {
     background-image: url('./../img/header.jpg');
     background-position: top;
     background-size: cover;
-    padding: 30px 0;
-}
-
-header>h1 {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-weight: 300;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-@media (min-width:768px) {
-    header>h1 {
-        margin-top: 160px;
-        font-size: 50px;
-    }
-}
-
-header>p {
-    font-size: 13px;
-    color: rgba(240, 240, 240, 0.7);
-    margin-bottom: 50px;
-    letter-spacing: 2px;
-    line-height: 24px;
-}
-
-@media (min-width:768px) {
-    header>p {
-        margin-bottom: 50px;
-        font-size: 16px;
-    }
+    padding: 30px 0 0 0;
 }
 
 header .links {
@@ -266,138 +235,6 @@ header .btn {
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-#features {
-    max-width: 100%;
-    text-align: center;
-    margin-top: 50px;
-}
-
-#features .feature-list {
-    text-align: left;
-}
-
-#features h1 {
-    line-height: 30px;
-    margin-bottom: 50px;
-    max-width: 100%;
-    font-size: 22px;
-}
-
-@media (min-width:768px) {
-    h1 {
-        line-height: 45px;
-        font-size: 32px;
-    }
-}
-
-#features h1 span {
-    color: #d62414;
-}
-
-#features h3 {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 23px;
-    margin-top: 0;
-}
-
-#features .feature-img {
-    color: #d62414;
-    border: 2px solid #d62414;
-    border-radius: 100%;
-    font-size: 38px;
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin: 0 auto;
-}
-
-#features .feature-list {
-    text-align: center;
-}
-
-@media (min-width:992px) {
-    #features .feature-img {
-        display: inline;
-        margin: none;
-    }
-    #features .feature-list {
-        text-align: left;
-    }
-}
-
-#about {
-    background: linear-gradient(rgba(255, 0, 0, 0.30), rgba(255, 0, 0, 0.30)), url(../img/splash.jpg);
-    text-align: center;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    padding: 30px 0;
-    text-shadow: 0 0 10px #000;
-}
-
-#about h1 {
-    color: #fff;
-    font-size: 21px;
-}
-
-@media (min-width:768px) {
-    #about h1 {
-        font-size: 30px;
-    }
-}
-
-#about p {
-    font-weight: 300;
-    color: rgba(255, 255, 255, 0.8);
-    letter-spacing: 1px;
-    line-height: 20px;
-    padding: 10px 0;
-    font-size: 13px;
-}
-
-@media (min-width:768px) {
-    #about p {
-        font-size: 14px;
-        line-height: 30px;
-    }
-}
-
-#about .btn {
-    margin-right: 0;
-}
-
-@media (min-width:768px) {
-    #about .btn {
-        margin-right: 20px;
-    }
-}
-
-#servers {
-    margin-top: 50px;
-    text-align: center;
-}
-
-#servers h1 {
-    font-size: 24px;
-    margin-bottom: 30px;
-}
-
-@media (min-width:768px) {
-    #servers h1 {
-        font-size: 32px;
-    }
-}
-
-#servers h1 span {
-    color: #d62414;
-}
-
-#servers h3 {
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #252525;
-}
 
 #donate {
     background-image: url('./../img/donate-banner.jpg');
@@ -428,12 +265,46 @@ header .btn {
 }
 
 #donate p {
-    color: #b1b1b1;
+    color: whitesmoke;
     margin-bottom: 30px;
 }
 
 #donate img {
     height: 400px;
+}
+
+#hero {
+    margin-top: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    #hero {
+        text-align: left;
+    }
+}
+
+.bgdark {
+    padding: 10px;
+    background-color: rgba(15, 15, 15,0.8);
+}
+
+#hero h1 {
+    padding: 10px;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+#hero li {
+    color: whitesmoke;
+    margin-bottom: 10px;
 }
 
 footer {
