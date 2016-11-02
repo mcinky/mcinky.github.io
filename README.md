@@ -1,3 +1,3 @@
-# [InkyMC](http://inkymc.com)
+# [InkyMC](http://www.inkymc.com)
 
 The inky mc website
