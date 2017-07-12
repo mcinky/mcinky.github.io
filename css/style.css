@@ -3,8 +3,8 @@ body {
     font-weight: 500;
 }
 
-navbar-default .navbar-nav>li>a:focus {
-    color: #ddd;
+.navbar-default .navbar-nav>li>a:focus {
+    color: #ddd !important;
 }
 
 .navbar-collapse {
