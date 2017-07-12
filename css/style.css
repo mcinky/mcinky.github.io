@@ -154,6 +154,10 @@ body {
     margin-right: 0;
 }
 
+.headcontain {
+    background-size: cover;
+}
+
 header {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     text-align: center;
@@ -374,6 +378,9 @@ footer .spacer {
 }
 
 @media (min-width:768px) {
+    .headcontain {
+        background-size: 100%;
+    }
     footer h2 {
         text-align: left;
     }
