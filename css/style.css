@@ -1,6 +1,5 @@
 body {
-    font-family:'Raleway';
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-default .navbar-nav>li>a:focus {
