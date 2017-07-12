@@ -161,7 +161,7 @@ body {
 header {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     text-align: center;
-    background-image: url('./../img/header.jpg');
+    background-image: url('//www.inkymc.com/img/header.jpg');
     background-position: top;
     background-size: cover;
     padding: 30px 0 0 0;
@@ -241,7 +241,7 @@ header .btn {
 
 
 #donate {
-    background-image: url('./../img/donate-banner.jpg');
+    background-image: url('.//www.inkymc.com/img/donate-banner.jpg');
     background-position: 0 101%;
     background-size: cover;
     overflow: hidden;
