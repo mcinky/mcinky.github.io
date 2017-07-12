@@ -246,7 +246,7 @@ header .btn {
 
 
 #donate {
-    background-image: url('.//www.inkymc.com/img/donate-banner.jpg');
+    background-image: url('/img/donate-banner.png');
     background-position: 0 101%;
     background-size: cover;
     overflow: hidden;
