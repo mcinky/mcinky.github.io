@@ -3,6 +3,10 @@ body {
     font-weight: 500;
 }
 
+navbar-default .navbar-nav>li>a:focus {
+    color: #ddd;
+}
+
 .navbar-collapse {
     border-top: none;
     box-shadow: none;
