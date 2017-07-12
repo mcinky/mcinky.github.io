@@ -238,7 +238,7 @@ header .btn {
 
 #donate {
     background-image: url('./../img/donate-banner.jpg');
-    background-position: 0 calc(100% + 10px);
+    background-position: 0 101%;
     background-size: cover;
     overflow: hidden;
     text-align: center;
@@ -376,5 +376,8 @@ footer .spacer {
 @media (min-width:768px) {
     footer h2 {
         text-align: left;
+    }
+    #donate {
+        background-position: 0 calc(100% + 10px);
     }
 }
