@@ -278,12 +278,6 @@ header .btn {
     text-align: center;
 }
 
-@media (min-width:768px) {
-    #hero {
-        text-align: left;
-    }
-}
-
 .bgdark {
     padding: 10px;
     background-color: rgba(255, 255, 255,0.2);
@@ -373,6 +367,10 @@ footer .spacer {
 }
 
 @media (min-width:768px) {
+    #hero {
+        text-align: left;
+    }
+    
     #donate {
         text-align: left;
     }
