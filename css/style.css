@@ -159,7 +159,7 @@ body {
 }
 
 .headcontain {
-    background-size: cover;
+    background-size: 100%;
 }
 
 header {
@@ -383,7 +383,7 @@ footer .spacer {
 
 @media (min-width:768px) {
     .headcontain {
-        background-size: 100%;
+        background-size: cover;
     }
     footer h2 {
         text-align: left;
