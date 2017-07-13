@@ -159,7 +159,7 @@ body {
 }
 
 .headcontain {
-    background-size: 100%;
+    background-size: cover;
 }
 
 header {
@@ -254,15 +254,6 @@ header .btn {
 
 #donate .btn {
     margin-bottom: 20px;
-}
-
-@media (min-width:768px) {
-    #donate {
-        text-align: left;
-    }
-    #donate .btn {
-        margin-bottom: 5px;
-    }
 }
 
 #donate h1 {
@@ -382,8 +373,14 @@ footer .spacer {
 }
 
 @media (min-width:768px) {
+    #donate {
+        text-align: left;
+    }
+    #donate .btn {
+        margin-bottom: 5px;
+    }
     .headcontain {
-        background-size: cover;
+        background-size: 100%;
     }
     footer h2 {
         text-align: left;
